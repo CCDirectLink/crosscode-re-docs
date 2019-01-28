@@ -9,7 +9,7 @@ Faces are usually seen during cutscenes. They are the character expressions that
 
 # Format
 
-```js
+```
 {
     "face" : {
         "subImages" : {
@@ -47,25 +47,16 @@ Faces are usually seen during cutscenes. They are the character expressions that
 
 
 # Explanation
-
-face - stores the information about all the character expressions
-
-face.width -> How wide the reference image is
-face.height -> How tall the reference image is
-
-face.centerX -> idk
-
-face.centerY -> idk
-
-face.src -> default source image to use
-
-face.subImages -> special images to use
-
-face.parts -> the puzzle pieces for an expression
-
-## optional
-
-face.parts[n].nameOfPart
-
-
-face.expressions -> all expressions for the character
+| **Key** | **Info** |
+|-----|------|
+| `face` | stores the information about all the character expressions |
+| `face.width` | How wide the reference image is |
+| `face.height` | How tall the reference image is |
+| `face.centerX` | idk |
+| `face.centerY` | idk |
+| `face.src` | default source image to use |
+| `face.subImages` | special images to use |
+| `face.parts` | the puzzle pieces for an expression |
+| **Optional parts** |
+| `face.parts[n].nameOfPart`| a thing that contains more things. |
+| `face.expressions` | all expressions for the character |
