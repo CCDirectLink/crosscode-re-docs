@@ -1,14 +1,3 @@
-<style>
-    a { 
-        text-decoration: none; 
-        color : "black"; 
-    }
-    a:hover { 
-        text-decoration: none; 
-        color : "black"; 
-    }
-</style>
-
 # Location 
 
 `assets/data/characters/*/*.json`
