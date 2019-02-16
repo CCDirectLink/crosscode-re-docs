@@ -123,20 +123,20 @@ A series of characters
 
 | **key** | **type** | **info** |
 | ------- | -------- | -------- |
-|  `destX` | [int]() | ??? |
-|  `destY` | [int]() | ??? |
-|  `width` | [int]() | ??? |
-|  `height`| [int]() | ??? |
-|  `srcX`  | [int]() | ??? |
-|  `srcY`  | [int]() | ??? |
+|  `destX` | [int]() | In game destination X-coord |
+|  `destY` | [int]() | In game destination Y-coord |
+|  `width` | [int]() | Width of body part in the image file|
+|  `height`| [int]() | Height of body part in the image file  |
+|  `srcX`  | [int]() | X-coordinate location in image file |
+|  `srcY`  | [int]() | Y-coordinate location in image file |
 
 **OPTIONAL** 
 
 | **key** | **type** | **info** |
 | ------- | -------- | -------- | 
-| `subX`  | [int]()  | ??? |
-| `subY`  | [int]()  | ??? |
-| `img`   | [str]()  | ??? |
+| `subX`  | [int]()  | destX adjustment value |
+| `subY`  | [int]()  | destY adjustment value|
+| `img`   | [str]()  | SubImage to use (key name) |
 
  ---
 ---
