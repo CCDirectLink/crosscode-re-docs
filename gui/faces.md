@@ -1,3 +1,14 @@
+<style>
+    a { 
+        text-decoration: none; 
+        color : "black"; 
+    }
+    a:hover { 
+        text-decoration: none; 
+        color : "black"; 
+    }
+</style>
+
 # Location 
 
 `assets/data/characters/*/*.json`
@@ -12,51 +23,77 @@ Faces are usually seen during cutscenes. They are the character expressions that
 ```
 {
     "face" : {
-        "subImages" : {
-            "nameOfSubImage" : "path/to/nameOfSubImage.png"
-        },
+        "subImage" : {},
         "width" : int,
         "height" : int,
         "centerX" : int,
         "centerY" : int,
-        "src" : "path/to/src.png",
-        "parts" : [{
-            "nameOfPart" : {
-                "srcX" : int,
-                "srcY" : int,
-                "width" : int,
-                "height" : int,
-                "destX" : int,
-                "destY" : int,
-                "subX" : int,
-                "subY" : int,
-                "img" : "nameOfSubImage"
-            }
-        }],
-        "expressions" : [{
-            anim : [int],
-            time : float,
-            repeat: int,
-            faces : [
-                [str]
-            ]            
-        }]
+        "src" : "src.png",
+        "parts" : [],  
+        "expressions" : []
     }
 }
 ```
 
 
-# Explanation
-| **Key** | **Info** |
-|-----|------|
-| `face` | stores the information about all the character expressions |
-| `face.width` | How wide the reference image is |
-| `face.height` | How tall the reference image is |
-| `face.centerX` | idk |
-| `face.centerY` | idk |
-| `face.src` | default source image to use |
-| `face.subImages` | special images to use |
-| `face.parts` | the puzzle pieces for an expression |
-| **Optional parts** |
-| `face.parts[n].nameOfPart`| a thing that contains more things. |
-| `face.expressions` | all expressions for the character |
+# Face 
+| **Key** | **type** | **Info** |
+|-----| ----- | ------|
+| `subImage` | [subImage](#subImage) | ??? |
+| `width` | [int](#integer) | How wide the reference image is |
+| `height` | [int](#integer)| How tall the reference image is |
+| `centerX` | [int](#integer) | idk |
+| `centerY` | [int](#integer) | idk |
+| `src`     | [Image Path](#img-loc) | default source image to use |
+| `parts`   | [parts](#parts) | ??? | 
+| `expression` | [expression](#expression) | ??? |
+
+
+# Types
+
+## <a id="integer">Integer</a>
+
+A number 
+
+## <a id="string">String</a>
+
+A series of characters 
+
+## <a id="subimage">subImage</a>
+```js
+{
+    "name" : "value"
+}
+```
+| **key** | **type** | **info** |
+| ------- | -------- | -------- |
+|  `name`   |  [str](#string)     |  The name of the subImage (must be unique) |
+|  `value`  |  [Image Path](#img-loc)     | ??? | 
+
+
+## <a id="img-loc">Image Location</a>
+
+`assets/media/face/*/*.png`
+
+## <a id="parts">parts</a>
+
+```js
+{
+    "parts" : []
+}
+```
+
+
+
+
+## <a id="expression">expression</a>
+```
+[{
+    anim : [int],
+    time : float,
+    repeat: int,
+    faces : [
+        [str]
+    ]         
+}]
+```
