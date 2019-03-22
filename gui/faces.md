@@ -147,8 +147,33 @@ A series of characters
     anim : [int],
     time : float,
     repeat: int,
-    faces : [
-        [str]
-    ]         
+    faces : [Face]         
 }]
 ```
+
+| key    | type  | info |
+|--------|-------|------|
+| anim   | Array#int | Each index is a face frame to play  |
+| time   | float | Time between each new frame |
+| repeat | int   | How many times to repeat |
+|        |       | value (n) behavior  |
+|        |       | n > 0 - How many times to play again|
+|        |       | n == 0 - Only play once|
+|        |       | n < 0 - Play forever|
+| faces  | [Array#Face](#face)  | ??? |
+
+ ---
+
+ ## <a id="face">Face</a>
+ ```
+[
+    str,
+    ...
+    str
+]
+```
+| key    | type  | info |
+|--------|-------|------|
+| index  | int   | Not an explict key. Corresponds to which part it's from. |
+| value  | str   | Name of part.|
+ ---
