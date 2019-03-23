@@ -1,3 +1,4 @@
+
 # Location 
 
 `assets/data/characters/*/*.json`
@@ -177,3 +178,17 @@ A series of characters
 | index  | int   | Not an explict key. Corresponds to which part it's from. |
 | value  | str   | Name of part.|
  ---
+
+
+# EXTRAS
+
+The faces reference point is at 192px on the y-axis.
+
+The x-axis is more variable and depends on which side its on.
+
+LEFT is 32px.
+
+RIGHT is 408px.
+
+*Note: Assumes dimensions are 568px, 320px.
+ 
