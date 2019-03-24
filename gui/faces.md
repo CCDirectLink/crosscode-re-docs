@@ -49,6 +49,14 @@ A number
 ---
 ---
 
+## <a id="float">Float</a>
+
+A number with a decimal.
+
+---
+---
+---
+
 ## <a id="string">String</a>
 
 A series of characters 
@@ -56,6 +64,7 @@ A series of characters
 ---
 ---
 ---
+
 ## <a id="subimage">SubImage</a>
 ```js
 {
@@ -124,20 +133,20 @@ A series of characters
 
 | **key** | **type** | **info** |
 | ------- | -------- | -------- |
-|  `destX` | [int]() | In game destination X-coord |
-|  `destY` | [int]() | In game destination Y-coord |
-|  `width` | [int]() | Width of body part in the image file|
-|  `height`| [int]() | Height of body part in the image file  |
-|  `srcX`  | [int]() | X-coordinate location in image file |
-|  `srcY`  | [int]() | Y-coordinate location in image file |
+|  `destX` | [int](#integer) | In game destination X-coord |
+|  `destY` | [int](#integer) | In game destination Y-coord |
+|  `width` | [int](#integer) | Width of body part in the image file|
+|  `height`| [int](#integer) | Height of body part in the image file  |
+|  `srcX`  | [int](#integer) | X-coordinate location in image file |
+|  `srcY`  | [int](#integer) | Y-coordinate location in image file |
 
 **OPTIONAL** 
 
 | **key** | **type** | **info** |
 | ------- | -------- | -------- | 
-| `subX`  | [int]()  | destX adjustment value |
-| `subY`  | [int]()  | destY adjustment value|
-| `img`   | [str]()  | SubImage to use (key name) |
+| `subX`  | [int](#integer)  | destX adjustment value |
+| `subY`  | [int](#integer)  | destY adjustment value|
+| `img`   | [str](#string)  | SubImage to use (key name) |
 
 *Note: subX and subY carried over to the remaining parts and not the current one.
  ---
@@ -155,9 +164,9 @@ A series of characters
 
 | key    | type  | info |
 |--------|-------|------|
-| anim   | Array#int | Each index is a face frame to play  |
-| time   | float | Time between each new frame |
-| repeat | int   | How many times to repeat |
+| anim   | [Array#int](#integer) | Each index is a face frame to play  |
+| time   | [float](#float) | Time between each new frame |
+| repeat | [int](#integer)   | How many times to repeat |
 |        |       | value (n) behavior  |
 |        |       | n > 0 - How many times to play again|
 |        |       | n == 0 - Only play once|
@@ -176,9 +185,12 @@ A series of characters
 ```
 | key    | type  | info |
 |--------|-------|------|
-| index  | int   | Not an explict key. Corresponds to which part it's from. |
-| value  | str   | Name of part.|
- ---
+| index  | [int](#integer)   | Not an explict key. Corresponds to which part it's from. |
+| value  | [str](#string)   | Name of part.|
+
+---
+---
+---
 
 
 # EXTRAS
