@@ -148,7 +148,7 @@ A series of characters
 | `subY`  | [int](#integer)  | destY adjustment value|
 | `img`   | [str](#string)  | SubImage to use (key name) |
 
-*Note: subX and subY carried over to the remaining parts and not the current one.
+*Note: subX and subY are carried over to the remaining parts, but skips the current one.
  ---
 ---
 ---
