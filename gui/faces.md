@@ -32,8 +32,8 @@ Faces are usually seen during cutscenes. They are the character expressions that
 | `subImages` | [SubImage](#subimage) | ??? |
 | `width` | [int](#integer) | How wide the reference image is |
 | `height` | [int](#integer)| How tall the reference image is |
-| `centerX` | [int](#integer) | idk |
-| `centerY` | [int](#integer) | idk |
+| `centerX` | [int](#integer) | Center of face x-coordinate |
+| `centerY` | [int](#integer) | Center of face y-coordinate |
 | `src`     | [Image Path](#img-loc) | default source image to use |
 | `parts`   | [parts](#parts) | ??? | 
 | `expression` | [expression](#expression) | ??? |
@@ -139,6 +139,7 @@ A series of characters
 | `subY`  | [int]()  | destY adjustment value|
 | `img`   | [str]()  | SubImage to use (key name) |
 
+*Note: subX and subY carried over to the remaining parts and not the current one.
  ---
 ---
 ---
@@ -186,9 +187,11 @@ The faces reference point is at 192px on the y-axis.
 
 The x-axis is more variable and depends on which side its on.
 
+One person only:
 LEFT is 32px.
 
 RIGHT is 408px.
 
-*Note: Assumes dimensions are 568px, 320px.
+*Note: Assumes screen dimensions are 568px by 320px.
+
  
