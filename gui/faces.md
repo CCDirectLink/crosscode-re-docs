@@ -166,11 +166,11 @@ A series of characters
 |--------|-------|------|
 | anim   | [Array#int](#integer) | Each index is a face frame to play  |
 | time   | [float](#float) | Time between each new frame |
-| repeat | [int](#integer)   | How many times to repeat |
+| repeat | [int](#integer)   | Value changes behavior of animation |
 |        |       | value (n) behavior  |
 |        |       | n > 1 - At what frame to loop back to infinitely |
 |        |       | n == 0 - Only play once |
-|        |       | (n < 0 or n === 1) - infinitely loop full animation |
+|        |       | (n < 0 or n == 1) - infinitely loop full animation |
 | faces  | [Array#Face](#face)  | ??? |
 
  ---
