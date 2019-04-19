@@ -20,7 +20,7 @@ Faces are usually seen during cutscenes. They are the character expressions that
         "centerY" : int,
         "src" : "src.png",
         "parts" : [],  
-        "expressions" : []
+        "expressions" : {}
     }
 }
 ```
@@ -153,12 +153,25 @@ A series of characters
 ---
 ---
 ## <a id="expression">expression</a>
+```js
+{
+    "name" : ExpressionConfig,
+}
 ```
+
+| key    | type  | info |
+|--------|-------|------|
+| name   | [str](#string) | Name of the expression |
+| value  | [ExpressionConfig](#expression-config) | ??? |
+---
+
+## <a id="expression-config">ExpressionConfig</a>
+```js
 [{
-    anim : [int],
-    time : float,
-    repeat: int,
-    faces : [Face]         
+    "anim" : [int],
+    "time" : float,
+    "repeat": int,
+    "faces" : [Face]         
 }]
 ```
 
