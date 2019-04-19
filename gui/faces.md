@@ -177,14 +177,19 @@ A series of characters
 
 | key    | type  | info |
 |--------|-------|------|
+| faces  | [Array#Face](#face)  | ??? |
+
+**OPTIONAL** 
+
+| **key** | **type** | **info** |
+| ------- | -------- | -------- | 
 | anim   | [Array#int](#integer) | Each index is a face frame to play  |
-| time   | [float](#float) | Time between each new frame |
-| repeat | [int](#integer)   | behavior of value n detailed below |
+| time   | [float](#float) | Time between each new frame (anim required) |
+| repeat | [int](#integer)   | behavior of value n detailed below (anim required) |
 |        |       | n >= anim.length - Game crashes | 
 |        |       | n > 1 - At what frame to loop back to infinitely |
 |        |       | n == 0 - Only play once |
 |        |       | (n < 0 or n == 1) - infinitely loop full animation |
-| faces  | [Array#Face](#face)  | ??? |
 
  ---
 
