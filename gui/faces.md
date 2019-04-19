@@ -20,7 +20,7 @@ Faces are usually seen during cutscenes. They are the character expressions that
         "centerY" : int,
         "src" : "src.png",
         "parts" : [],  
-        "expressions" : []
+        "expressions" : {}
     }
 }
 ```
@@ -153,25 +153,43 @@ A series of characters
 ---
 ---
 ## <a id="expression">expression</a>
+```js
+{
+    "name" : ExpressionConfig,
+}
 ```
+
+| key    | type  | info |
+|--------|-------|------|
+| name   | [str](#string) | Name of the expression |
+| value  | [ExpressionConfig](#expression-config) | ??? |
+---
+
+## <a id="expression-config">ExpressionConfig</a>
+```js
 [{
-    anim : [int],
-    time : float,
-    repeat: int,
-    faces : [Face]         
+    "anim" : [int],
+    "time" : float,
+    "repeat": int,
+    "faces" : [Face]         
 }]
 ```
 
 | key    | type  | info |
 |--------|-------|------|
+| faces  | [Array#Face](#face)  | ??? |
+
+**OPTIONAL** 
+
+| **key** | **type** | **info** |
+| ------- | -------- | -------- | 
 | anim   | [Array#int](#integer) | Each index is a face frame to play  |
-| time   | [float](#float) | Time between each new frame |
-| repeat | [int](#integer)   | behavior of value n detailed below |
+| time   | [float](#float) | Time between each new frame (anim required) |
+| repeat | [int](#integer)   | behavior of value n detailed below (anim required) |
 |        |       | n >= anim.length - Game crashes | 
 |        |       | n > 1 - At what frame to loop back to infinitely |
 |        |       | n == 0 - Only play once |
 |        |       | (n < 0 or n == 1) - infinitely loop full animation |
-| faces  | [Array#Face](#face)  | ??? |
 
  ---
 
