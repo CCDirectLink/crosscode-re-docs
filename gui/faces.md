@@ -177,7 +177,7 @@ A series of characters
 
 | key    | type  | info |
 |--------|-------|------|
-| faces  | [Array#Face](#face)  | ??? |
+| faces  | [Array#Face](#face-array)  | ??? |
 
 **OPTIONAL** 
 
@@ -193,7 +193,7 @@ A series of characters
 
  ---
 
- ## <a id="face">Face</a>
+ ## <a id="face-array">Face</a>
  ```
 [
     str,
