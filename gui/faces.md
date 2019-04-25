@@ -32,11 +32,13 @@ Faces are usually seen during cutscenes. They are the character expressions that
 | `subImages` | [SubImage](#subimage) | ??? |
 | `width` | [int](#integer) | How wide the reference image is |
 | `height` | [int](#integer)| How tall the reference image is |
+|          |                | |
 | `centerX` | [int](#integer) | Center of face x-coordinate |
 |           |                 | To calculate you do|
 |           |                 | 28px  + pixel translation from PartConfig.srcX |
 |           |                 | The size of the Part display in the pause menu|
 |           |                 | is a fixed 56px (roughly 10% of the internal screen width)|
+|           |                 |                              |
 | `centerY` | [int](#integer) | Center of face y-coordinate  |
 |           |                 | To calculate you do|
 |           |                 | 21px  + pixel translation from PartConfig.srcY |
