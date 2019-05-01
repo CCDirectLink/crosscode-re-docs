@@ -195,7 +195,7 @@ A series of characters
 
 | **key** | **type** | **info** |
 | ------- | -------- | -------- | 
-| anim   | [Array#int](#integer) | Each index is a face frame to play  |
+| anim   | [Array#int](#integer) | Each array value is a face frame to play  |
 | time   | [float](#float) | Time between each new frame (anim required) |
 | repeat | [int](#integer)   | behavior of value n detailed below (anim required) |
 |        |       | n >= anim.length - Game crashes | 
