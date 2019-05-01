@@ -115,7 +115,9 @@ A series of characters
 ## <a id="part">Part</a>
 ```js
 {
-    "name" : PartConfig
+    "name" : PartConfig,
+     ...
+    "nameN" : PartConfig
 }
 ```
 
