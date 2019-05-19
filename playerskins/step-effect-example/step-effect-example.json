@@ -1,0 +1,19 @@
+{
+ "name": {"en_US": "Footsteps Of Testing", "langUid": 13371337},
+ "description": {"en_US": "Replaces the Holiday Boots visuals", "langUid": 13371337},
+ "files": ["data/effects/skin-step/step-example.json"],
+ "entries": [
+  {
+   "type": "skin",
+   "data": {
+    "id": "step-effect-example",
+    "item": 16,
+    "autoAdd": true,
+    "type": "StepEffect",
+    "settings": {
+     "fx": "skin-step.step-example"
+    } 
+   }
+  }
+ ]
+}

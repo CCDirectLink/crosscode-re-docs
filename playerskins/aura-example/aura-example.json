@@ -1,0 +1,19 @@
+{
+ "name": {"en_US": "Weird Aura", "langUid": 13371337},
+ "description": {"en_US": "Replaces the Element Aura", "langUid": 13371337},
+ "files": ["data/effects/skin-aura/aura-example.json"],
+ "entries": [
+  {
+   "type": "skin",
+   "data": {
+    "id": "aura-example",
+    "item": 519,
+    "autoAdd": true,
+    "type": "Aura",
+    "settings": {
+     "fx": "skin-aura.aura-example"
+    } 
+   }
+  }
+ ]
+}
