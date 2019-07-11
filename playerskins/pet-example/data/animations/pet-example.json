@@ -1,0 +1,35 @@
+{
+ "DOCTYPE": "MULTI_DIR_ANIMATION",
+ "namedSheets": {
+  "somesheet": {
+   "src": "media/pet-example.png",
+   "width": 32,
+   "height": 32
+  }
+ },
+ "sheet": "somesheet",
+ "shapeType": "Y_FLAT",
+ "dirs": 8,
+ "offset": { "x": 0, "y": -1, "z": 0 },
+ "gfxOffset": { "x": 0, "y": 1 },
+ "flipX": [
+  0, 0, 0, 0, 0, 0, 0, 0
+ ],
+ "tileOffsets": [
+  0, 0, 0, 0, 0, 0, 0, 0
+ ],
+ "SUB": [
+  {
+   "name": "idle",
+   "time": 0.1,
+   "repeat": true,
+   "frames": [ 0 ]
+  },
+  {
+   "name": "move",
+   "time": 0.1,
+   "repeat": true,
+   "frames": [ 0 ]
+  }
+ ]
+}

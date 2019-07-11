@@ -1,0 +1,29 @@
+{
+ "DOCTYPE": "EFFECT",
+ "ANIMS": {
+  "namedSheets": null,
+  "SUB": [
+   {
+    "name": "THE_ANIM_OF_DOOM",
+    "sheet": { "src": "media/pics/class-symbols.png", "offX": 40, "offY": 72, "width": 32, "height": 32 },
+    "guiSprites": true,
+    "repeat": true,
+    "frames": [0]
+   }
+  ]
+ },
+ "EFFECTS": {
+  "step": [
+   {"type":"LOOP_START"},
+   {"type":"PLAY_ANIMS_OVER_ENTITY",
+    "anim": "THE_ANIM_OF_DOOM",
+    "numParticles": 8,
+    "duration": 0.1,
+    "pScale": {"init": {"x": 0.1, "y": 0.1}},
+    "moveZDist": 16,
+    "particleDuration": 1
+   },
+   {"type":"LOOP_END"}
+  ]
+ }
+}

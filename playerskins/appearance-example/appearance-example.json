@@ -1,0 +1,21 @@
+{
+ "name": {"en_US": "Cube Outfit", "langUid": 13371337},
+ "description": {"en_US": "Replaces the Holiday Hat", "langUid": 13371337},
+ "files": ["data/animations/appearance-example.json", "media/appearance-example.png"],
+ "entries": [
+  {
+   "type": "skin",
+   "data": {
+    "id": "appearance-example",
+    "item": 168,
+    "autoAdd": true,
+    "type": "Appearance",
+    "settings": {
+     "sheet": "appearance-example",
+     "fx": "skins.xmas",
+     "gui": "xmas.png"
+    } 
+   }
+  }
+ ]
+}

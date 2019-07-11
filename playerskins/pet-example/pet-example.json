@@ -1,0 +1,20 @@
+{
+ "name": {"en_US": "Pet Example", "langUid": 13371337},
+ "description": {"en_US": "Replaces the Testing Pet", "langUid": 13371337},
+ "files": ["data/animations/pet-example.json", "media/pet-example.png"],
+ "entries": [
+  {
+   "type": "skin",
+   "data": {
+    "id": "pet-example",
+    "item": 521,
+    "autoAdd": true,
+    "type": "Pet",
+    "settings": {
+     "animSheet": "pet-example",
+     "walkAnims": {"idle": "idle", "move": "move", "run": "move"}
+    } 
+   }
+  }
+ ]
+}

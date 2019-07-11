@@ -1,0 +1,34 @@
+{
+ "DOCTYPE": "MULTI_DIR_ANIMATION",
+ "namedSheets": {
+  "somesheet": {
+   "src": "media/appearance-example.png",
+   "width": 32,
+   "height": 32
+  }
+ },
+ "sheet": "somesheet",
+ "shapeType": "Y_FLAT",
+ "dirs": 8,
+ "offset": { "x": 0, "y": -4, "z": 0 },
+ "flipX": [
+  0, 0, 0, 0, 0, 1, 1, 1
+ ],
+ "tileOffsets": [
+  0, 4, 8, 12, 16, 12, 8, 4
+ ],
+ "SUB": [
+  {
+   "name": "idle",
+   "time": 0.1,
+   "repeat": true,
+   "frames": [ 0 ]
+  },
+  {
+   "name": "move",
+   "time": 0.1,
+   "repeat": true,
+   "frames": [ 0, 1, 2, 3, 2, 1 ]
+  }
+ ]
+}
