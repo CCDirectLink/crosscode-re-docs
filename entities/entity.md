@@ -5,7 +5,7 @@ This is the bare bone structure for any Entity types.
 ## Structure
 > Note: You can not spawn an entity by itself
 
-```js
+```ts
 declare type LevelObject = {
     "offset": Number,
     "level": Integer
