@@ -14,8 +14,8 @@ declare type LevelObject = {
 declare type Level = Integer | LevelObject;
 
 declare type Entity = {
-    "x": int,
-    "y": int,
+    "x": Integer,
+    "y": Integer,
     "level": Level
 }
 ```
