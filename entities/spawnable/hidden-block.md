@@ -1,8 +1,6 @@
 # HiddenBlock
 `ig.ENTITY.HiddenBlock`
 
-???
-
 ## Structure
 inherits from [Entity](/entities/base/entity.md)
 ```ts
