@@ -2,7 +2,7 @@
 `ig.ENTITY.FaceParticle`
 
 # Structure
-inherits from [Animated Entity](/entities/animated-entity.md)
+inherits from [Animated Entity](/entities/base/animated-entity.md)
 
 
 # Notes

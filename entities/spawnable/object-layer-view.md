@@ -4,7 +4,7 @@
 ???
 
 ## Structure
-inherits from [Animated Entity](/entities/animated-entity.md)
+inherits from [Animated Entity](/entities/base/animated-entity.md)
 ```ts
 declare type Layer = "object1" | "object2" | "object3";
 

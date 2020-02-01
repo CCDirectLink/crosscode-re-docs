@@ -2,7 +2,7 @@
 `ig.ENTITY.OffsetParticle`
 
 # Structure
-inherits from [Particle](/entities/particle.md)
+inherits from [Particle](/entities/base/particle.md)
 
 
 # Notes
