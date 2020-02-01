@@ -8,9 +8,6 @@
 ```ts
 declare type Layer = "object1" | "object2" | "object3";
 
-declare type Terrain = "NORMAL" | "METAL" | "CARDBOARD" | "EARTH" | "GRASS" | "WATER" | "WOOD" | "STONE" | "METALSOLID" | "SNOW" | "ICE" | "NOTHING" | "QUICKSAND" | "SHALLOW_WATER" | "SAND" | "COAL" | "HOLE" | "LASER" | "METAL_HOLLOW" | "SPIDERWEB" | "HIGHWAY";
-
-
 declare type EffectSheet = {
     "name": string,
     // path relative to data/effects/ 
