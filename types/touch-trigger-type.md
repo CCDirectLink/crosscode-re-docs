@@ -1,0 +1,8 @@
+# TouchTriggerType
+
+## VALUES
+
+- SET_TRUE
+- SET_FALSE
+- WHILE_TOUCH_TRUE
+- WHILE_TOUCH_ADD_1
