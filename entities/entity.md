@@ -32,3 +32,7 @@ declare type Entity = {
     }
 }
 ```
+
+### External Type References
+
+[VarCondition](/types/var-condition.md)
