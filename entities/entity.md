@@ -4,7 +4,6 @@
 This is the bare bone structure for any Entity types.
 
 ## Structure
-> Note: You can not spawn an entity by itself
 
 ```ts
 declare type LevelObject = {
@@ -33,6 +32,11 @@ declare type Entity = {
 }
 ```
 
+# Notes
+
+Should not directly spawn this.
+
 ### External Type References
 
 [VarCondition](/types/var-condition.md)
+
