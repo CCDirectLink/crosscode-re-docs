@@ -5,11 +5,6 @@
 
 ## Structure
 
-function keysToString(keys) {
-    return Object.keys(keys).map(e => `"${e}"`).join(" | ");
-}
-
-
 ```ts
 declare type Layer = "object1" | "object2" | "object3";
 
