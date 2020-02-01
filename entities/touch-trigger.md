@@ -2,7 +2,7 @@
 `ig.ENTITY.TouchTrigger`
 
 ## Structure
-inherits from [entity](/entities/entity.md)
+inherits from [Entity](/entities/entity.md)
 
 ```ts
 

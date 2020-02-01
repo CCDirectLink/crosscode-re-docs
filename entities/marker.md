@@ -6,7 +6,7 @@ This is used for spawning the player on a specific spot on a map.
 
 ## Structure
 
-inherits from [entity](/entities/entity.md)
+inherits from [Entity](/entities/entity.md)
 ```ts
 
 declare type FACE4 = "NORTH" | "EAST" | "SOUTH" | "WEST";
