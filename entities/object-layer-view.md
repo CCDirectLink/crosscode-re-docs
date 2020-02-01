@@ -53,7 +53,7 @@ declare type ObjectLayerView = {
     }
 };
 ```
-### External Type References:
+### External Type References
 
 [CollisionType](/types/collision-type.md)
 
@@ -62,3 +62,5 @@ declare type ObjectLayerView = {
 [CollisionShape](/types/collision-shape.md)
 
 [Terrain](/types/terrain.md)
+
+[VarCondition](/types/var-condition.md)
