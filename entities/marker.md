@@ -1,4 +1,5 @@
 # Marker
+`ig.ENTITY.Marker`
 
 This is used for spawning the player on a specific spot on a map.
 

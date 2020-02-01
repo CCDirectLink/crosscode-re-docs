@@ -1,4 +1,5 @@
 # Entity
+`ig.Entity`
 
 This is the bare bone structure for any Entity types.
 
