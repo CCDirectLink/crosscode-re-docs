@@ -13,9 +13,6 @@ declare type LevelObject = {
 
 declare type Level = Integer | LevelObject;
 
-// need to write explanation as to what can be done
-declare type VarCondition = string;
-
 declare type Entity = {
     "x": Integer,
     "y": Integer,
