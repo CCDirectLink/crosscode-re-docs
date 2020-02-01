@@ -31,6 +31,10 @@ declare type Marker = {
 ```
 
 
+### External Type References
+
+[FACE4](/types/faces/face4.md)
+
 ## Notes
 
 There is no collision so the player can not run into.

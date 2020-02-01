@@ -39,6 +39,10 @@ ig.game.sendExternalMessage("EFFECT_PREVIEWER_APPEARANCE", {
 });
 ```
 
+### External Type References
+
+[DotPath](/types/dot-path.md)
+
 # Notes
 
 The animation loaded defaults to player
