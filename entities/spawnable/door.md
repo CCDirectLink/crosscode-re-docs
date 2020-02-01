@@ -6,9 +6,6 @@ inherits from [Animated Entity](/entities/base/animated-entity.md)
 
 ```ts
 
-declare type DoorTransitionTypes = "REGULAR" | "INTER_AREA";
-
-
 declare type Door = {
     "type": "Door",
     "settings": {
@@ -44,17 +41,19 @@ declare type Door = {
         // ignored if the doorType has hardcoded anims
         "variation": DoorVariation,
         
-        "transitionType": DoorTransitionTypes,
+        "transitionType": DoorTransitionType,
     }
 };
 ```
 
 ### External Type References
 
-[DoorType](/types/door-type.md)
+[DoorType](/types/door/types.md)
 
 [VarCondition](/types/var-condition.md)
 
 [FACE4](/types/faces/face4.md)
 
 [DotPath](/types/dot-path.md)
+
+[DoorTransitionType](/types/door/transition-types.md)

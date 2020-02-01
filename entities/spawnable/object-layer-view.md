@@ -18,6 +18,9 @@ declare type EffectSheet = {
 declare type ObjectLayerView = {
     "type": "ObjectLayerView",
     "settings" : {
+
+        "layer": ObjectLayer,
+
         "collType": CollisionType // default: "BLOCK"
 
         // this overrides the entities height
@@ -49,7 +52,8 @@ declare type ObjectLayerView = {
         "guiSprites": boolean,
         
         // the condition to make it transparent
-        "hideCondition": VarCondition
+        "hideCondition": VarCondition,
+
     }
 };
 ```
@@ -64,3 +68,5 @@ declare type ObjectLayerView = {
 [Terrain](/types/terrain.md)
 
 [VarCondition](/types/var-condition.md)
+
+[ObjectLayer](/types/object-layer.md)
