@@ -1,7 +1,7 @@
 # Collision Height Shape
 `ig.COLL_HEIGHT_SHAPE`
 
-### Values
+### VAlUES
 - NONE
 - NORTH_UP
 - EAST_UP

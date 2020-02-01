@@ -1,7 +1,7 @@
 # Collision Types
 `ig.COLLTYPE`
 
-### Values
+### VALUES
 - NONE
 - IGNORE
 - PROJECTILE

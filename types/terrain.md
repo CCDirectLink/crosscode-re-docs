@@ -1,7 +1,7 @@
 # Terrain
 `ig.TERRAIN`
 
-## Values
+## VALUES
 - NORMAL
 - METAL
 - CARDBOARD

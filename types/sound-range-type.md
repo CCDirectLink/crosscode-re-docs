@@ -1,7 +1,7 @@
 # SoundRangeType
 `ig.SOUND_RANGE_TYPE`
 
-## Values
+## VALUES
 
 - CIRCULAR
 - HORIZONTAL

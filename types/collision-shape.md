@@ -1,7 +1,7 @@
 # Collision Shape
 `ig.COLLSHAPE`
 
-### Values
+### VALUES
 - RECTANGLE
 - SLOPE_NE
 - SLOPE_SE
