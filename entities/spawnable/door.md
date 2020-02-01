@@ -12,12 +12,14 @@ declare type DoorTransitionTypes = "REGULAR" | "INTER_AREA";
 declare type Door = {
     "type": "Door",
     "settings": {
+
         "doorType": DoorType, // default: "DEFAULT"
 
         // condition to open
         "condition":  VarCondition,
         
         // view direction
+        // set to SOUTH if the doorType has hardcoded anims
         "dir": FACE4, // default: "SOUTH"
 
         // base path is assets/maps/
@@ -29,12 +31,17 @@ declare type Door = {
         // will become transparent if true
         "hideCondition": VarCondition,
 
+
+
+        // event to play if player enters door and 
+        // blockEvenCondition evaluates to true
         "blockEvent": Event,
 
         "blockEventCondition": VarCondition,
 
-        // Dependent on the area-style
+        // Dependent on the mapStyle
         // what variation of a door you can get 
+        // ignored if the doorType has hardcoded anims
         "variation": DoorVariation,
         
         "transitionType": DoorTransitionTypes,
