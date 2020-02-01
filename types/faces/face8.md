@@ -1,0 +1,13 @@
+# FACE8
+`ig.ActorEntity.FACE8`
+
+## VALUES
+
+- NORTH
+- EAST
+- SOUTH
+- WEST
+- NORTH_EAST
+- SOUTH_EAST
+- SOUTH_WEST
+- NORTH_WEST
