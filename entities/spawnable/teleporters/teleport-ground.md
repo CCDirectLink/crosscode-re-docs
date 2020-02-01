@@ -52,3 +52,16 @@ declare type TeleportGround = {
 
 };
 ```
+
+
+### External Type References
+
+[FACE4](/types/faces/face4.md)
+
+[DotPath](/types/dot-path.md)
+
+[VarCondition](/types/var-condition.md)
+
+[DoorType](/types/door/types.md)
+
+[DoorTransitionType](/types/door/transition-types.md)
