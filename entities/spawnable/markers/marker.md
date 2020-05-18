@@ -1,7 +1,7 @@
 # Marker
 `ig.ENTITY.Marker`
 
-This is used for spawning the player on a specific spot on a map.
+This is used for spawning the player at a specific spot on a map.
 
 
 ## Structure

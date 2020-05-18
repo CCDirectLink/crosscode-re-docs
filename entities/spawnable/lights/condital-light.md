@@ -15,7 +15,7 @@ declare type ConditionalLight = {
 
         "glowSize": LightSize,
 
-        // if the whether type has a glowColor property,
+        // if the weather type has a glowColor property,
         // then it is used 
         "weather": WeatherTypes,
 
